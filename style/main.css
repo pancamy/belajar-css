@@ -1,0 +1,13 @@
+.bg-yellow {
+    background-color: yellow;
+    text-align: center;
+    padding: 24px 0;
+    border-radius: 24px;
+}
+.bg-yellow
+h1 {
+    font-size: 40px;
+    color: green;
+    word-spacing: 12px;
+    word-wrap: normal;
+}
