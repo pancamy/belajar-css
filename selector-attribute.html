@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Attribute</title>
+
+    <style>
+        a[target=_blank] {
+            background-color: yellow;
+        }
+        /* [class="top"] {
+            background-color: tomato;
+        } */
+        /* [class|="top"] {
+            background-color: violet;
+        } */
+        [class^="top"] {
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="" target="_blank">Home</a>
+        <a href="">About Us</a>
+    </div>
+
+    <div>
+        <p class="top-header">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat itaque quod quibusdam qui minus nam voluptatibus magni alias unde sequi dignissimos, in deleniti cupiditate ipsa blanditiis sunt doloribus! Magni, aliquam minima officia, cupiditate inventore reiciendis quia neque corrupti, pariatur velit aperiam sunt. Sequi eveniet quidem, fuga tenetur perferendis illo dolor.</p>
+
+        <br>
+
+        <p class="top-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, expedita.</p>
+
+        <br>
+
+        <p class="topbody">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit a modi maxime iure facilis voluptatum saepe nemo ut necessitatibus voluptates quisquam recusandae optio doloribus et laboriosam laborum, reprehenderit nesciunt consequuntur adipisci, ab illum alias fuga sapiente. Fugiat, tempora quas aut commodi quidem cum amet itaque ratione, libero accusantium hic veniam.</p>
+    </div>
+</body>
+</html>
